@@ -7,7 +7,8 @@ body{
     color: white;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -236,8 +237,9 @@ body{
   }
   .project1{
     display: flex;
-    justify-content: space-between;
-    max-width: 100%;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
     border-radius: 20px;
     padding: 20px;
     margin-top: 25px;
@@ -254,7 +256,7 @@ body{
 }
 
 .skill-image{
-    width: 100px;
+    width: 80px;
     height: 80px;
     box-shadow: 2px 2px 7px 1px #EEF4ED
 }
@@ -267,7 +269,7 @@ body{
 }
 
 .skills-container{
-    width: 550px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,7 +280,7 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 400px;
     align-items: center;
     box-shadow: 2px 2px 7px 1px #EEF4ED;
     border-radius: 20px;
