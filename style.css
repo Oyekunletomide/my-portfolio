@@ -6,181 +6,184 @@ body{
     background-color: #1D1A05;
     color: white;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;  
     width: 100%;
-    
+  
 }
 
 
     /* Style the navbar */
-    #nav {
-        overflow: hidden;
-        background-color: #333;
-        box-shadow: 2px 2px 7px 1px #EEF4ED;
-        display: flex;
-        justify-content: space-around;
-      }
-      
-      /* Navbar links */
-      #nav a {
-        float: right;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-      }
+#nav {
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 2px 2px 7px 1px #EEF4ED;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  /* Navbar links */
+  #nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .sticky {
+	background-color: #ffffff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+  .whole-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme-container{
+    max-width: 300px;
+   /* background-color: #333;
+   */
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
     
-      .sticky {
-        background-color: #ffffff;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
+  }
+  .technologies-para-div{
+    margin-left: 30px;
+  }
+
+  .unit-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: none;
+  }
+  .project1{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 7px 1px #EEF4ED;
+  }
+  .project1-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  strong{
+    color: red;
+  }
+
+
+.skill-image{
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 2px 7px 1px #EEF4ED
+}
+.skill-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skills-container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-      .whole-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .aboutme-container{
-        max-width: 300px;
-       /* background-color: #333;
-       */
-        height: 100px;
-        margin-top: 10px;
-        padding: 10px;
-        text-align: center;
-        
-      }
-      .technologies-para-div{
-        margin-left: 30px;
-      }
+}
+
+.email-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    box-shadow: 2px 2px 7px 1px #EEF4ED;
+    border-radius: 20px;
+}
+.email-container > img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
     
-      .unit-image{
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        border: none;
-      }
-      .project1{
-        display: flex;
-        justify-content: space-between;
-        width: 750px;
-        border-radius: 20px;
-        padding: 20px;
-        margin-top: 25px;
-        box-shadow: 2px 2px 7px 1px #EEF4ED;
-      }
-      .project1-note{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      strong{
-        color: red;
-      }
+}
+hr{
+    border: 1px solid #C3C9E9;
+    width: 50px;
+
+}
+.whole-hello-container{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hello-container > p{
+    padding-left: 30px;
+}
+
+.name-input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0px;
+}
+.message-input{
+    width: 250px;
+    padding: 50px;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0px;
+}
+.submit-btn{
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.form-div{
+    padding-bottom: 30px;
+    width: 300px;
     
-    
-    .skill-image{
-        width: 100px;
-        height: 80px;
-        box-shadow: 2px 2px 7px 1px #EEF4ED
-    }
-    .skill-image-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
-    
-    .skills-container{
-        width: 550px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    .email-container{
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        width: 550px;
-        align-items: center;
-        box-shadow: 2px 2px 7px 1px #EEF4ED;
-        border-radius: 20px;
-    }
-    .email-container > img{
-        width: 50px;
-        height: 50px;
-        margin-bottom: 40px;
-        
-    }
-    hr{
-        border: 1px solid #C3C9E9;
-        width: 50px;
-    
-    }
-    .whole-hello-container{
-        padding: 20px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    .hello-container > p{
-        padding-left: 30px;
-    }
-    
-    .name-input{
-        width: 400px;
-        padding: 10px;
-        border-radius: 6px;
-        border: none;
-    }
-    .message-input{
-        width: 300px;
-        padding: 50px;
-        border-radius: 6px;
-        border: none;
-    }
-    .submit-btn{
-        width: 80px;
-        margin-top: 10px;
-        padding: 5px;
-        border-radius: 6px;
-    }
-    .form-div{
-        padding-bottom: 30px;
-    }
-    
-    .footer-container{
-        width: 100%;
-        background-color: #EEF4ED;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .icon-div{
-        display: flex;
-        align-items: center;
-    
-    }
-    .github-icon{
-        width: 35px;
-        height: 35px;
-    }
+}
+
+.footer-container{
+    width: 100%;
+    background-color: #EEF4ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon-div{
+    display: flex;
+    align-items: center;
+
+}
+.github-icon{
+    width: 35px;
+    height: 35px;
+}
 
 
 
 
 
-
-
-@media (max-width: 800px) {
+@media (max-width: 650px) {
  
    
 
