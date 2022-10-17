@@ -178,20 +178,8 @@ body{
 
 
 
-@media (max-width: 600px) {
-    * {
-        box-sizing: border-box;
-    }
-    body{
-        margin: 0;
-        background-color: #1D1A05;
-        color: white;
-        padding: 0;
-        font-family: 'Roboto', sans-serif;
-        
-    }
-
-
+@media (max-width: 800px) {
+ 
    
 
     /* Style the navbar */
@@ -201,6 +189,7 @@ body{
     box-shadow: 2px 2px 7px 1px #EEF4ED;
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
   
   /* Navbar links */
@@ -248,7 +237,7 @@ body{
   .project1{
     display: flex;
     justify-content: space-between;
-    max-width: 550px;
+    max-width: 100%;
     border-radius: 20px;
     padding: 20px;
     margin-top: 25px;
