@@ -7,8 +7,9 @@ body{
     color: white;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+    max-height: 100vh;
+    width: 100%;
+    
 }
 
 
@@ -238,7 +239,7 @@ body{
   .project1{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 300px;
     align-items: center;
     border-radius: 20px;
     padding: 20px;
@@ -280,7 +281,7 @@ body{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     align-items: center;
     box-shadow: 2px 2px 7px 1px #EEF4ED;
     border-radius: 20px;
@@ -308,16 +309,18 @@ hr{
 }
 
 .name-input{
-    width: 400px;
+    width: 250px;
     padding: 10px;
     border-radius: 6px;
     border: none;
+    margin: 10px 0px;
 }
 .message-input{
-    width: 300px;
+    width: 250px;
     padding: 50px;
     border-radius: 6px;
     border: none;
+    margin: 10px 0px;
 }
 .submit-btn{
     width: 80px;
@@ -327,6 +330,8 @@ hr{
 }
 .form-div{
     padding-bottom: 30px;
+    width: 300px;
+    
 }
 
 .footer-container{
